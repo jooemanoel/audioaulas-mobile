@@ -23,7 +23,7 @@ const args = process.argv.slice(2);
 const forcar = args.includes("--forcar");
 const iPasta = args.indexOf("--pasta");
 const pasta = resolve(iPasta >= 0 ? args[iPasta + 1] : join(__dirname, "../../estudos/aulas"));
-const filtros = args.filter((a, i) => !a.startsWith("--") && i !== iPasta + 1);
+const filtros = args.filter((a, i) => !a.startsWith("--") && (iPasta < 0 || i !== iPasta + 1));
 
 const escaparXml = (s) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");

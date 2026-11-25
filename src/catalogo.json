@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-25T10:51:41.190Z",
+  "versao": "2026-11-25T11:34:51.731Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "3": "Conhecimentos específicos",
@@ -316,7 +316,18 @@
       "secao": "3.1",
       "txt": "aula_3.1.3_concorrencia_e_processamento.txt",
       "mp3": "aula_3.1.3_concorrencia_e_processamento.mp3",
-      "mp3Bytes": 14537664
+      "mp3Bytes": 14540112
+    },
+    {
+      "id": "aula_3.1.4_interfaces_e_experiencia_do_usuario_roteiro_audio",
+      "item": "3.1.4",
+      "parte": null,
+      "titulo": "Interfaces e experiência do usuário",
+      "modulo": "3",
+      "secao": "3.1",
+      "txt": "aula_3.1.4_interfaces_e_experiencia_do_usuario_roteiro_audio.txt",
+      "mp3": "aula_3.1.4_interfaces_e_experiencia_do_usuario_roteiro_audio.mp3",
+      "mp3Bytes": 20149200
     }
   ]
 }
