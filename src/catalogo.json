@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-25T14:19:10.749Z",
+  "versao": "2026-11-25T15:53:18.409Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "3": "Conhecimentos específicos",
@@ -373,6 +373,17 @@
       "txt": "aula_3.2.3_comunicacao_e_consistencia_roteiro_audio.txt",
       "mp3": "aula_3.2.3_comunicacao_e_consistencia_roteiro_audio.mp3",
       "mp3Bytes": 15016752
+    },
+    {
+      "id": "aula_3.2.4_integracao_com_dados_e_ia_roteiro_audio",
+      "item": "3.2.4",
+      "parte": null,
+      "titulo": "Integração com dados e IA",
+      "modulo": "3",
+      "secao": "3.2",
+      "txt": "aula_3.2.4_integracao_com_dados_e_ia_roteiro_audio.txt",
+      "mp3": "aula_3.2.4_integracao_com_dados_e_ia_roteiro_audio.mp3",
+      "mp3Bytes": 21297168
     }
   ]
 }
