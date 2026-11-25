@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-25T11:34:51.731Z",
+  "versao": "2026-11-25T11:55:30.250Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "3": "Conhecimentos específicos",
@@ -328,6 +328,17 @@
       "txt": "aula_3.1.4_interfaces_e_experiencia_do_usuario_roteiro_audio.txt",
       "mp3": "aula_3.1.4_interfaces_e_experiencia_do_usuario_roteiro_audio.mp3",
       "mp3Bytes": 20149200
+    },
+    {
+      "id": "aula_3.1.5_manutencao_e_evolucao_roteiro_audio",
+      "item": "3.1.5",
+      "parte": null,
+      "titulo": "Manutenção e evolução",
+      "modulo": "3",
+      "secao": "3.1",
+      "txt": "aula_3.1.5_manutencao_e_evolucao_roteiro_audio.txt",
+      "mp3": "aula_3.1.5_manutencao_e_evolucao_roteiro_audio.mp3",
+      "mp3Bytes": 14811120
     }
   ]
 }
