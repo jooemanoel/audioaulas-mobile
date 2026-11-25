@@ -112,7 +112,7 @@ export function useReprodutor({ progresso, atualizarAula, atualizarGeral }) {
       player.pause();
       return;
     }
-    // Android 13+: a notificação de mídia (controles na tela de bloqueio) precisa de permissão.
+    // A notificação de mídia do Android dispensa permissão; o pedido vale para o iOS e outros casos.
     if (!pediuNotificacao.current) {
       pediuNotificacao.current = true;
       requestNotificationPermissionsAsync().catch(() => {});

@@ -68,4 +68,4 @@ O build local usa o plugin `plugins/cmake-recente.js` (CMake 3.31.6) por causa d
 ## Limitações
 
 - A leitura com a voz do aparelho depende do motor de voz instalado (Google, Samsung...) e é controlada pelo app: a tela fica ligada enquanto lê. Para ouvir com a tela apagada, use o MP3.
-- No Android 13 ou superior, permita as notificações para ver os controles na tela de bloqueio.
+- Os áudios baixados ficam na pasta interna do app: desinstalar o app apaga os áudios e o progresso.
