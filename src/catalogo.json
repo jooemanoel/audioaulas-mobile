@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-25T11:55:30.250Z",
+  "versao": "2026-11-25T12:25:49.486Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "3": "Conhecimentos específicos",
@@ -7,7 +7,8 @@
     "1.2": "Sociedade brasileira, desigualdades, diversidade e desenvolvimento",
     "1.3": "Ética pública e responsabilidade profissional",
     "1.4": "Administração pública e fundamentos de políticas públicas",
-    "3.1": "Engenharia de software e programação"
+    "3.1": "Engenharia de software e programação",
+    "3.2": "Arquitetura e integração de sistemas"
   },
   "aulas": [
     {
@@ -339,6 +340,17 @@
       "txt": "aula_3.1.5_manutencao_e_evolucao_roteiro_audio.txt",
       "mp3": "aula_3.1.5_manutencao_e_evolucao_roteiro_audio.mp3",
       "mp3Bytes": 14811120
+    },
+    {
+      "id": "aula_3.2.1_arquiteturas_de_aplicacoes_roteiro_audio",
+      "item": "3.2.1",
+      "parte": null,
+      "titulo": "Arquiteturas de aplicações",
+      "modulo": "3",
+      "secao": "3.2",
+      "txt": "aula_3.2.1_arquiteturas_de_aplicacoes_roteiro_audio.txt",
+      "mp3": "aula_3.2.1_arquiteturas_de_aplicacoes_roteiro_audio.mp3",
+      "mp3Bytes": 21480912
     }
   ]
 }
