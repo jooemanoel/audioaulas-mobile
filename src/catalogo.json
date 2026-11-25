@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-25T20:14:30.106Z",
+  "versao": "2026-11-25T22:06:38.217Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "3": "Conhecimentos específicos",
@@ -418,6 +418,17 @@
       "txt": "aula_3.3.1_modelagem_e_persistencia_parte2_roteiro_audio.txt",
       "mp3": "aula_3.3.1_modelagem_e_persistencia_parte2_roteiro_audio.mp3",
       "mp3Bytes": 16635744
+    },
+    {
+      "id": "aula_3.3.2_sql_e_desempenho_roteiro_audio",
+      "item": "3.3.2",
+      "parte": null,
+      "titulo": "SQL e desempenho",
+      "modulo": "3",
+      "secao": "3.3",
+      "txt": "aula_3.3.2_sql_e_desempenho_roteiro_audio.txt",
+      "mp3": "aula_3.3.2_sql_e_desempenho_roteiro_audio.mp3",
+      "mp3Bytes": 16358976
     }
   ]
 }
