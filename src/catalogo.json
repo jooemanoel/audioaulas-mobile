@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-25T12:44:57.388Z",
+  "versao": "2026-11-25T14:19:10.749Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "3": "Conhecimentos específicos",
@@ -362,6 +362,17 @@
       "txt": "aula_3.2.2_apis_e_identidade_roteiro_audio.txt",
       "mp3": "aula_3.2.2_apis_e_identidade_roteiro_audio.mp3",
       "mp3Bytes": 20973600
+    },
+    {
+      "id": "aula_3.2.3_comunicacao_e_consistencia_roteiro_audio",
+      "item": "3.2.3",
+      "parte": null,
+      "titulo": "Comunicação e consistência",
+      "modulo": "3",
+      "secao": "3.2",
+      "txt": "aula_3.2.3_comunicacao_e_consistencia_roteiro_audio.txt",
+      "mp3": "aula_3.2.3_comunicacao_e_consistencia_roteiro_audio.mp3",
+      "mp3Bytes": 15016752
     }
   ]
 }
