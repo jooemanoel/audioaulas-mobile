@@ -1,0 +1,322 @@
+{
+  "versao": "2026-11-25T04:10:51.855Z",
+  "grupos": {
+    "1": "Conhecimentos básicos",
+    "3": "Conhecimentos específicos",
+    "1.1": "Estado, democracia, direitos e ciência política",
+    "1.2": "Sociedade brasileira, desigualdades, diversidade e desenvolvimento",
+    "1.3": "Ética pública e responsabilidade profissional",
+    "1.4": "Administração pública e fundamentos de políticas públicas",
+    "3.1": "Engenharia de software e programação"
+  },
+  "aulas": [
+    {
+      "id": "aula_1.1.1_estado_e_legitimidade_roteiro_audio",
+      "item": "1.1.1",
+      "parte": null,
+      "titulo": "Estado e legitimidade",
+      "modulo": "1",
+      "secao": "1.1",
+      "txt": "aula_1.1.1_estado_e_legitimidade_roteiro_audio.txt",
+      "mp3": "aula_1.1.1_estado_e_legitimidade_roteiro_audio.mp3",
+      "mp3Bytes": 19293120
+    },
+    {
+      "id": "aula_1.1.2_democracia_e_representacao_roteiro_audio",
+      "item": "1.1.2",
+      "parte": null,
+      "titulo": "Democracia e representação",
+      "modulo": "1",
+      "secao": "1.1",
+      "txt": "aula_1.1.2_democracia_e_representacao_roteiro_audio.txt",
+      "mp3": "aula_1.1.2_democracia_e_representacao_roteiro_audio.mp3",
+      "mp3Bytes": 18719856
+    },
+    {
+      "id": "aula_1.1.3_federalismo_e_capacidades_estatais_roteiro_audio",
+      "item": "1.1.3",
+      "parte": null,
+      "titulo": "Federalismo e capacidades estatais",
+      "modulo": "1",
+      "secao": "1.1",
+      "txt": "aula_1.1.3_federalismo_e_capacidades_estatais_roteiro_audio.txt",
+      "mp3": "aula_1.1.3_federalismo_e_capacidades_estatais_roteiro_audio.mp3",
+      "mp3Bytes": 19283184
+    },
+    {
+      "id": "aula_1.1.4_ordem_constitucional_e_direitos_roteiro_audio",
+      "item": "1.1.4",
+      "parte": null,
+      "titulo": "Ordem constitucional e direitos",
+      "modulo": "1",
+      "secao": "1.1",
+      "txt": "aula_1.1.4_ordem_constitucional_e_direitos_roteiro_audio.txt",
+      "mp3": "aula_1.1.4_ordem_constitucional_e_direitos_roteiro_audio.mp3",
+      "mp3Bytes": 20801520
+    },
+    {
+      "id": "aula_1.1.5_valor_publico_e_controle_roteiro_audio",
+      "item": "1.1.5",
+      "parte": null,
+      "titulo": "Valor público e controle",
+      "modulo": "1",
+      "secao": "1.1",
+      "txt": "aula_1.1.5_valor_publico_e_controle_roteiro_audio.txt",
+      "mp3": "aula_1.1.5_valor_publico_e_controle_roteiro_audio.mp3",
+      "mp3Bytes": 19337328
+    },
+    {
+      "id": "aula_1.1.6_corrupcao_como_fenomeno_politico_e_social_roteiro_audio",
+      "item": "1.1.6",
+      "parte": null,
+      "titulo": "Corrupção como fenômeno político e social",
+      "modulo": "1",
+      "secao": "1.1",
+      "txt": "aula_1.1.6_corrupcao_como_fenomeno_politico_e_social_roteiro_audio.txt",
+      "mp3": "aula_1.1.6_corrupcao_como_fenomeno_politico_e_social_roteiro_audio.mp3",
+      "mp3Bytes": 19754208
+    },
+    {
+      "id": "aula_1.1.7_mecanismos_de_reproducao_e_captura_roteiro_audio",
+      "item": "1.1.7",
+      "parte": null,
+      "titulo": "Mecanismos de reprodução e captura",
+      "modulo": "1",
+      "secao": "1.1",
+      "txt": "aula_1.1.7_mecanismos_de_reproducao_e_captura_roteiro_audio.txt",
+      "mp3": "aula_1.1.7_mecanismos_de_reproducao_e_captura_roteiro_audio.mp3",
+      "mp3Bytes": 18368784
+    },
+    {
+      "id": "aula_1.1.8_consequencias_e_respostas_a_corrupcao_roteiro_audio",
+      "item": "1.1.8",
+      "parte": null,
+      "titulo": "Consequências e respostas à corrupção",
+      "modulo": "1",
+      "secao": "1.1",
+      "txt": "aula_1.1.8_consequencias_e_respostas_a_corrupcao_roteiro_audio.txt",
+      "mp3": "aula_1.1.8_consequencias_e_respostas_a_corrupcao_roteiro_audio.mp3",
+      "mp3Bytes": 16635888
+    },
+    {
+      "id": "aula_1.1.9_estado_e_modelos_de_desenvolvimento_economico_roteiro_audio",
+      "item": "1.1.9",
+      "parte": null,
+      "titulo": "Estado e modelos de desenvolvimento econômico",
+      "modulo": "1",
+      "secao": "1.1",
+      "txt": "aula_1.1.9_estado_e_modelos_de_desenvolvimento_economico_roteiro_audio.txt",
+      "mp3": "aula_1.1.9_estado_e_modelos_de_desenvolvimento_economico_roteiro_audio.mp3",
+      "mp3Bytes": 12306528
+    },
+    {
+      "id": "aula_1.2.1_fundamentos_sociologicos_roteiro_audio",
+      "item": "1.2.1",
+      "parte": null,
+      "titulo": "Fundamentos sociológicos",
+      "modulo": "1",
+      "secao": "1.2",
+      "txt": "aula_1.2.1_fundamentos_sociologicos_roteiro_audio.txt",
+      "mp3": "aula_1.2.1_fundamentos_sociologicos_roteiro_audio.mp3",
+      "mp3Bytes": 19695168
+    },
+    {
+      "id": "aula_1.2.2_formacao_social_e_cidadania_no_brasil_roteiro_audio",
+      "item": "1.2.2",
+      "parte": null,
+      "titulo": "Formação social e cidadania no Brasil",
+      "modulo": "1",
+      "secao": "1.2",
+      "txt": "aula_1.2.2_formacao_social_e_cidadania_no_brasil_roteiro_audio.txt",
+      "mp3": "aula_1.2.2_formacao_social_e_cidadania_no_brasil_roteiro_audio.mp3",
+      "mp3Bytes": 19206144
+    },
+    {
+      "id": "aula_1.2.3_populacao_territorio_e_trabalho_roteiro_audio",
+      "item": "1.2.3",
+      "parte": null,
+      "titulo": "População, território e trabalho",
+      "modulo": "1",
+      "secao": "1.2",
+      "txt": "aula_1.2.3_populacao_territorio_e_trabalho_roteiro_audio.txt",
+      "mp3": "aula_1.2.3_populacao_territorio_e_trabalho_roteiro_audio.mp3",
+      "mp3Bytes": 19566432
+    },
+    {
+      "id": "aula_1.2.4_diversidade_e_acesso_a_direitos_roteiro_audio",
+      "item": "1.2.4",
+      "parte": null,
+      "titulo": "Diversidade e acesso a direitos",
+      "modulo": "1",
+      "secao": "1.2",
+      "txt": "aula_1.2.4_diversidade_e_acesso_a_direitos_roteiro_audio.txt",
+      "mp3": "aula_1.2.4_diversidade_e_acesso_a_direitos_roteiro_audio.mp3",
+      "mp3Bytes": 20193264
+    },
+    {
+      "id": "aula_1.2.5_desenvolvimento_e_realidade_brasileira_roteiro_audio",
+      "item": "1.2.5",
+      "parte": null,
+      "titulo": "Desenvolvimento e realidade brasileira",
+      "modulo": "1",
+      "secao": "1.2",
+      "txt": "aula_1.2.5_desenvolvimento_e_realidade_brasileira_roteiro_audio.txt",
+      "mp3": "aula_1.2.5_desenvolvimento_e_realidade_brasileira_roteiro_audio.mp3",
+      "mp3Bytes": 18059472
+    },
+    {
+      "id": "aula_1.3.1_fundamentos_da_etica_publica_roteiro_audio",
+      "item": "1.3.1",
+      "parte": null,
+      "titulo": "Fundamentos da ética pública",
+      "modulo": "1",
+      "secao": "1.3",
+      "txt": "aula_1.3.1_fundamentos_da_etica_publica_roteiro_audio.txt",
+      "mp3": "aula_1.3.1_fundamentos_da_etica_publica_roteiro_audio.mp3",
+      "mp3Bytes": 15260832
+    },
+    {
+      "id": "aula_1.3.2_deveres_profissionais_roteiro_audio",
+      "item": "1.3.2",
+      "parte": null,
+      "titulo": "Deveres profissionais",
+      "modulo": "1",
+      "secao": "1.3",
+      "txt": "aula_1.3.2_deveres_profissionais_roteiro_audio.txt",
+      "mp3": "aula_1.3.2_deveres_profissionais_roteiro_audio.mp3",
+      "mp3Bytes": 16152336
+    },
+    {
+      "id": "aula_1.3.3_conflitos_de_interesses_e_imparcialidade_roteiro_audio",
+      "item": "1.3.3",
+      "parte": null,
+      "titulo": "Conflitos de interesses e imparcialidade",
+      "modulo": "1",
+      "secao": "1.3",
+      "txt": "aula_1.3.3_conflitos_de_interesses_e_imparcialidade_roteiro_audio.txt",
+      "mp3": "aula_1.3.3_conflitos_de_interesses_e_imparcialidade_roteiro_audio.mp3",
+      "mp3Bytes": 15026544
+    },
+    {
+      "id": "aula_1.3.4_relacoes_de_trabalho_e_atendimento_roteiro_audio",
+      "item": "1.3.4",
+      "parte": null,
+      "titulo": "Relações de trabalho e atendimento",
+      "modulo": "1",
+      "secao": "1.3",
+      "txt": "aula_1.3.4_relacoes_de_trabalho_e_atendimento_roteiro_audio.txt",
+      "mp3": "aula_1.3.4_relacoes_de_trabalho_e_atendimento_roteiro_audio.mp3",
+      "mp3Bytes": 26588880
+    },
+    {
+      "id": "aula_1.3.5_integridade_como_responsabilidade_institucional_roteiro_audio",
+      "item": "1.3.5",
+      "parte": null,
+      "titulo": "Integridade como responsabilidade institucional",
+      "modulo": "1",
+      "secao": "1.3",
+      "txt": "aula_1.3.5_integridade_como_responsabilidade_institucional_roteiro_audio.txt",
+      "mp3": "aula_1.3.5_integridade_como_responsabilidade_institucional_roteiro_audio.mp3",
+      "mp3Bytes": 23085504
+    },
+    {
+      "id": "aula_1.4.1_organizacao_administrativa_parte1_roteiro_audio",
+      "item": "1.4.1",
+      "parte": 1,
+      "titulo": "Organização administrativa",
+      "modulo": "1",
+      "secao": "1.4",
+      "txt": "aula_1.4.1_organizacao_administrativa_parte1_roteiro_audio.txt",
+      "mp3": "aula_1.4.1_organizacao_administrativa_parte1_roteiro_audio.mp3",
+      "mp3Bytes": 15840288
+    },
+    {
+      "id": "aula_1.4.1_organizacao_administrativa_parte2_roteiro_audio",
+      "item": "1.4.1",
+      "parte": 2,
+      "titulo": "Organização administrativa",
+      "modulo": "1",
+      "secao": "1.4",
+      "txt": "aula_1.4.1_organizacao_administrativa_parte2_roteiro_audio.txt",
+      "mp3": "aula_1.4.1_organizacao_administrativa_parte2_roteiro_audio.mp3",
+      "mp3Bytes": 22949856
+    },
+    {
+      "id": "aula_1.4.2_modelos_de_administracao_roteiro_audio",
+      "item": "1.4.2",
+      "parte": null,
+      "titulo": "Modelos de administração",
+      "modulo": "1",
+      "secao": "1.4",
+      "txt": "aula_1.4.2_modelos_de_administracao_roteiro_audio.txt",
+      "mp3": "aula_1.4.2_modelos_de_administracao_roteiro_audio.mp3",
+      "mp3Bytes": 18127008
+    },
+    {
+      "id": "aula_1.4.3_politicas_publicas_roteiro_audio",
+      "item": "1.4.3",
+      "parte": null,
+      "titulo": "Políticas públicas",
+      "modulo": "1",
+      "secao": "1.4",
+      "txt": "aula_1.4.3_politicas_publicas_roteiro_audio.txt",
+      "mp3": "aula_1.4.3_politicas_publicas_roteiro_audio.mp3",
+      "mp3Bytes": 15704784
+    },
+    {
+      "id": "aula_1.4.4_planejamento_e_recursos_roteiro_audio",
+      "item": "1.4.4",
+      "parte": null,
+      "titulo": "Planejamento e recursos",
+      "modulo": "1",
+      "secao": "1.4",
+      "txt": "aula_1.4.4_planejamento_e_recursos_roteiro_audio.txt",
+      "mp3": "aula_1.4.4_planejamento_e_recursos_roteiro_audio.mp3",
+      "mp3Bytes": 22706208
+    },
+    {
+      "id": "aula_1.4.5_servicos_e_transformacao_digital_roteiro_audio",
+      "item": "1.4.5",
+      "parte": null,
+      "titulo": "Serviços e transformação digital",
+      "modulo": "1",
+      "secao": "1.4",
+      "txt": "aula_1.4.5_servicos_e_transformacao_digital_roteiro_audio.txt",
+      "mp3": "aula_1.4.5_servicos_e_transformacao_digital_roteiro_audio.mp3",
+      "mp3Bytes": 20179872
+    },
+    {
+      "id": "aula_3.1.1_problemas_e_requisitos",
+      "item": "3.1.1",
+      "parte": null,
+      "titulo": "Problemas e requisitos",
+      "modulo": "3",
+      "secao": "3.1",
+      "txt": "aula_3.1.1_problemas_e_requisitos.txt",
+      "mp3": null,
+      "mp3Bytes": 0
+    },
+    {
+      "id": "aula_3.1.2_programacao_e_correcao",
+      "item": "3.1.2",
+      "parte": null,
+      "titulo": "Programação e correção",
+      "modulo": "3",
+      "secao": "3.1",
+      "txt": "aula_3.1.2_programacao_e_correcao.txt",
+      "mp3": null,
+      "mp3Bytes": 0
+    },
+    {
+      "id": "aula_3.1.3_concorrencia_e_processamento",
+      "item": "3.1.3",
+      "parte": null,
+      "titulo": "Concorrência e processamento",
+      "modulo": "3",
+      "secao": "3.1",
+      "txt": "aula_3.1.3_concorrencia_e_processamento.txt",
+      "mp3": null,
+      "mp3Bytes": 0
+    }
+  ]
+}

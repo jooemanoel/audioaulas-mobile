@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Audioaulas",
+    "slug": "audioaulas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#f6f7f9",
+    "ios": {
+      "bundleIdentifier": "com.jooemanoel.audioaulas",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"]
+      }
+    },
+    "android": {
+      "package": "com.jooemanoel.audioaulas",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#2f5bd3",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "blockedPermissions": ["android.permission.RECORD_AUDIO"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false,
+          "enableBackgroundPlayback": true
+        }
+      ],
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160,
+          "backgroundColor": "#2f5bd3",
+          "dark": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#14161a"
+          }
+        }
+      ],
+      [
+        "./plugins/cmake-recente",
+        {
+          "versao": "3.31.6"
+        }
+      ]
+    ]
+  }
+}
