@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-25T12:25:49.486Z",
+  "versao": "2026-11-25T12:44:57.388Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "3": "Conhecimentos específicos",
@@ -351,6 +351,17 @@
       "txt": "aula_3.2.1_arquiteturas_de_aplicacoes_roteiro_audio.txt",
       "mp3": "aula_3.2.1_arquiteturas_de_aplicacoes_roteiro_audio.mp3",
       "mp3Bytes": 21480912
+    },
+    {
+      "id": "aula_3.2.2_apis_e_identidade_roteiro_audio",
+      "item": "3.2.2",
+      "parte": null,
+      "titulo": "APIs e identidade",
+      "modulo": "3",
+      "secao": "3.2",
+      "txt": "aula_3.2.2_apis_e_identidade_roteiro_audio.txt",
+      "mp3": "aula_3.2.2_apis_e_identidade_roteiro_audio.mp3",
+      "mp3Bytes": 20973600
     }
   ]
 }
