@@ -9,6 +9,7 @@
     "android": "expo run:android",
     "catalogo": "node scripts/catalogo.js",
     "publicar-aulas": "node scripts/publicar-aulas.js",
+    "gerar-audios": "node scripts/gerar-audios.js",
     "icones": "node scripts/icones.js",
     "test": "node --no-warnings --test test/",
     "apk": "npx eas-cli@latest build -p android --profile apk",
@@ -32,6 +33,7 @@
     "eslint": "^9.39.5",
     "eslint-config-expo": "~58.0.4",
     "globals": "^17.14.0",
+    "msedge-tts": "^2.1.1",
     "sharp": "^0.35.5"
   }
 }
