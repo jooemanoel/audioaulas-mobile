@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-26T03:11:26.473Z",
+  "versao": "2026-11-26T03:29:56.608Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "3": "Conhecimentos específicos",
@@ -496,6 +496,17 @@
       "txt": "aula_3.4.3_entrega_e_operacao_roteiro_audio.txt",
       "mp3": "aula_3.4.3_entrega_e_operacao_roteiro_audio.mp3",
       "mp3Bytes": 17139168
+    },
+    {
+      "id": "aula_3.4.4_gestao_de_produtos_e_governanca_roteiro_audio",
+      "item": "3.4.4",
+      "parte": null,
+      "titulo": "Gestão de produtos e governança",
+      "modulo": "3",
+      "secao": "3.4",
+      "txt": "aula_3.4.4_gestao_de_produtos_e_governanca_roteiro_audio.txt",
+      "mp3": "aula_3.4.4_gestao_de_produtos_e_governanca_roteiro_audio.mp3",
+      "mp3Bytes": 16219008
     }
   ]
 }
