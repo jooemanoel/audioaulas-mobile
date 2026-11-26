@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-26T00:26:21.207Z",
+  "versao": "2026-11-26T01:02:09.785Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "3": "Conhecimentos específicos",
@@ -9,7 +9,8 @@
     "1.4": "Administração pública e fundamentos de políticas públicas",
     "3.1": "Engenharia de software e programação",
     "3.2": "Arquitetura e integração de sistemas",
-    "3.3": "Persistência, integração e proteção de dados"
+    "3.3": "Persistência, integração e proteção de dados",
+    "3.4": "Desenvolvimento seguro, qualidade e gestão da entrega"
   },
   "aulas": [
     {
@@ -462,6 +463,17 @@
       "txt": "aula_3.3.4_privacidade_e_seguranca_de_dados_roteiro_audio.txt",
       "mp3": "aula_3.3.4_privacidade_e_seguranca_de_dados_roteiro_audio.mp3",
       "mp3Bytes": 20296944
+    },
+    {
+      "id": "aula_3.4.1_seguranca_de_aplicacoes_roteiro_audio",
+      "item": "3.4.1",
+      "parte": null,
+      "titulo": "Segurança de aplicações",
+      "modulo": "3",
+      "secao": "3.4",
+      "txt": "aula_3.4.1_seguranca_de_aplicacoes_roteiro_audio.txt",
+      "mp3": "aula_3.4.1_seguranca_de_aplicacoes_roteiro_audio.mp3",
+      "mp3Bytes": 20306736
     }
   ]
 }
