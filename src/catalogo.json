@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-26T01:49:45.666Z",
+  "versao": "2026-11-26T03:11:26.473Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "3": "Conhecimentos específicos",
@@ -485,6 +485,17 @@
       "txt": "aula_3.4.2_testes_e_qualidade_roteiro_audio.txt",
       "mp3": "aula_3.4.2_testes_e_qualidade_roteiro_audio.mp3",
       "mp3Bytes": 16700544
+    },
+    {
+      "id": "aula_3.4.3_entrega_e_operacao_roteiro_audio",
+      "item": "3.4.3",
+      "parte": null,
+      "titulo": "Entrega e operação",
+      "modulo": "3",
+      "secao": "3.4",
+      "txt": "aula_3.4.3_entrega_e_operacao_roteiro_audio.txt",
+      "mp3": "aula_3.4.3_entrega_e_operacao_roteiro_audio.mp3",
+      "mp3Bytes": 17139168
     }
   ]
 }
