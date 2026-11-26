@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-26T03:29:56.608Z",
+  "versao": "2026-11-26T12:05:32.883Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "3": "Conhecimentos específicos",
@@ -507,6 +507,17 @@
       "txt": "aula_3.4.4_gestao_de_produtos_e_governanca_roteiro_audio.txt",
       "mp3": "aula_3.4.4_gestao_de_produtos_e_governanca_roteiro_audio.mp3",
       "mp3Bytes": 16219008
+    },
+    {
+      "id": "aula_3.4.5_contratacao_e_fiscalizacao_de_solucoes_roteiro_audio",
+      "item": "3.4.5",
+      "parte": null,
+      "titulo": "Contratação e fiscalização de soluções",
+      "modulo": "3",
+      "secao": "3.4",
+      "txt": "aula_3.4.5_contratacao_e_fiscalizacao_de_solucoes_roteiro_audio.txt",
+      "mp3": "aula_3.4.5_contratacao_e_fiscalizacao_de_solucoes_roteiro_audio.mp3",
+      "mp3Bytes": 25243488
     }
   ]
 }
