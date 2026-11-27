@@ -1,0 +1,128 @@
+// Aviso de versão nova do app: compara a versão instalada (app.json) com a release
+// marcada como "Latest" em github.com/jooemanoel/audioaulas-mobile.
+//
+// A API do GitHub sem login aceita 60 consultas por hora por IP; o app consulta no
+// máximo uma vez por hora (ao abrir e ao voltar para o app) e guarda a resposta,
+// então o aviso continua aparecendo sem internet. Qualquer falha é silenciosa: o aviso é só uma conveniência.
+import config from "../../app.json";
+import { Directory, File, Paths } from "expo-file-system";
+
+// A última consulta ({ verificadoEm, versao, url }) fica num arquivo, como o progresso (servicos/armazenamento.js).
+const arquivoAtualizacao = new File(Paths.document, "atualizacao.json");
+
+function lerLocal() {
+  try {
+    return arquivoAtualizacao.exists ? JSON.parse(arquivoAtualizacao.textSync()) : null;
+  } catch {
+    return null;
+  }
+}
+
+function gravarLocal(dados) {
+  try {
+    if (!arquivoAtualizacao.exists) arquivoAtualizacao.create({ intermediates: true });
+    arquivoAtualizacao.write(JSON.stringify(dados));
+  } catch {
+    // sem o registro, a próxima abertura só consulta de novo
+  }
+}
+
+export const VERSAO_INSTALADA = config.expo.version;
+
+const URL_RELEASE = "https://api.github.com/repos/jooemanoel/audioaulas-mobile/releases/latest";
+// Uma hora: com um dia, quem abriu o app logo antes de uma release só via o aviso no dia seguinte.
+const INTERVALO_MS = 60 * 60 * 1000;
+const TEMPO_LIMITE_MS = 10000;
+
+/** Compara "1.10.0" com "1.9.2" número a número: > 0 se a for mais nova. */
+export function compararVersoes(a, b) {
+  const pa = String(a).split(".").map((n) => parseInt(n, 10) || 0);
+  const pb = String(b).split(".").map((n) => parseInt(n, 10) || 0);
+  for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+    const diferenca = (pa[i] ?? 0) - (pb[i] ?? 0);
+    if (diferenca !== 0) return diferenca;
+  }
+  return 0;
+}
+
+/** { versao, url } se a última versão conhecida for mais nova que a instalada; senão null. */
+function novaSeHouver(registro) {
+  if (!registro?.versao || !registro?.url) return null;
+  return compararVersoes(registro.versao, VERSAO_INSTALADA) > 0 ? { versao: registro.versao, url: registro.url } : null;
+}
+
+/**
+ * Devolve { versao, url } da versão nova (url = o APK da release, ou a página dela),
+ * ou null se o app está em dia. Usa a consulta guardada se ela tiver menos de uma hora.
+ */
+export async function verificarAtualizacao() {
+  const salvo = lerLocal();
+  if (salvo?.verificadoEm && Date.now() - salvo.verificadoEm < INTERVALO_MS) return novaSeHouver(salvo);
+
+  const controle = new AbortController();
+  const temporizador = setTimeout(() => controle.abort(), TEMPO_LIMITE_MS);
+  try {
+    const resposta = await fetch(URL_RELEASE, {
+      headers: { Accept: "application/vnd.github+json" },
+      signal: controle.signal,
+    });
+    if (!resposta.ok) return novaSeHouver(salvo);
+    const release = await resposta.json();
+    const versao = String(release.tag_name ?? "").replace(/^v/i, "");
+    const apk = (release.assets ?? []).find((a) => a.name?.toLowerCase().endsWith(".apk"));
+    const registro = { verificadoEm: Date.now(), versao, url: apk?.browser_download_url ?? release.html_url };
+    gravarLocal(registro);
+    return novaSeHouver(registro);
+  } catch {
+    return novaSeHouver(salvo); // sem internet: vale o que já se sabia
+  } finally {
+    clearTimeout(temporizador);
+  }
+}
+
+// ---------- baixar e instalar dentro do app ----------
+// Pelo navegador, o download do APK às vezes chega a 100% e não termina (o download
+// paralelo do Chromium com o redirecionamento do GitHub). O app baixa sozinho, por uma
+// conexão do próprio Android, e abre o instalador do sistema com o arquivo.
+// Na primeira vez, o Android pede para permitir "instalar apps desconhecidos" do Audioaulas
+// (por isso a permissão REQUEST_INSTALL_PACKAGES no app.json).
+
+const PASTA_DOWNLOAD = "atualizacao"; // dentro do cache do app
+
+function pastaDownload() {
+  return new Directory(Paths.cache, PASTA_DOWNLOAD);
+}
+
+/** Apaga APKs baixados antes (ficam no cache depois de instalados). */
+export function limparDownloads() {
+  try {
+    const pasta = pastaDownload();
+    if (pasta.exists) pasta.delete();
+  } catch {
+    // o cache é do sistema; se não der, ele limpa quando precisar
+  }
+}
+
+/**
+ * Baixa o APK da versão nova e abre o instalador do Android.
+ * aoProgresso recebe de 0 a 1 (ou null se o tamanho não for conhecido).
+ */
+export async function baixarEInstalar({ versao, url }, aoProgresso) {
+  const { getContentUriAsync } = require("expo-file-system/legacy");
+  const { startActivityAsync } = require("expo-intent-launcher");
+
+  limparDownloads();
+  const pasta = pastaDownload();
+  pasta.create({ intermediates: true, idempotent: true });
+  const destino = new File(pasta, `audioaulas-${versao}.apk`);
+  const arquivo = await File.downloadFileAsync(url, destino, {
+    idempotent: true,
+    onProgress: ({ bytesWritten, totalBytes }) => aoProgresso?.(totalBytes > 0 ? bytesWritten / totalBytes : null),
+  });
+  const conteudo = await getContentUriAsync(arquivo.uri);
+  await startActivityAsync("android.intent.action.VIEW", {
+    data: conteudo,
+    type: "application/vnd.android.package-archive",
+    flags: 1, // FLAG_GRANT_READ_URI_PERMISSION: o instalador lê o arquivo do app
+  });
+}

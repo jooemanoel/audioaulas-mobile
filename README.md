@@ -39,6 +39,18 @@ flowchart LR
 
 Para só regenerar o catálogo embutido no app (`src/catalogo.json`), sem enviar nada: `npm run catalogo`.
 
+## Versão nova do app
+
+Ao abrir e ao voltar para o app (no máximo uma vez por hora), o app consulta a release marcada como
+*Latest* neste repositório. Se a versão dela for maior que a do `app.json`, aparece no topo da lista um
+cartão com o botão **Atualizar agora**: o app baixa o APK sozinho (sem passar pelo navegador, cujo
+download às vezes trava em 100%) e abre o instalador do Android. Na primeira vez, o Android pede para
+permitir que o Audioaulas instale apps (permissão `REQUEST_INSTALL_PACKAGES`). Se o download falhar,
+o botão abre o APK no navegador.
+
+Por isso, cada versão nova precisa ser publicada como release com a tag `vX.Y.Z` igual ao `version`
+do [app.json](app.json), com o `.apk` anexado (aumente também o `android.versionCode`).
+
 ## Estrutura
 
 ```

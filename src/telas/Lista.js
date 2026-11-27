@@ -1,6 +1,7 @@
 // Tela inicial: aulas agrupadas por seção do edital, com situação do download e do progresso.
 import { useMemo } from "react";
 import { Alert, Pressable, SectionList, Text, View } from "react-native";
+import AvisoAtualizacao from "../componentes/AvisoAtualizacao";
 import { Botao, Mensagem, Progresso } from "../componentes/basicos";
 import { useEstilos } from "../estilos";
 import { agruparPorSecao, formatarBytes, formatarTempo, fracaoOuvida, rotuloItem } from "../nucleo/formatos.js";
@@ -26,6 +27,7 @@ export default function Lista({ catalogo, progresso, situacoes, downloads, atual
 
   const cabecalho = (
     <View style={{ paddingTop: 12 }}>
+      <AvisoAtualizacao />
       {mensagem ? <Mensagem tipo={mensagem.tipo}>{mensagem.texto}</Mensagem> : null}
       {downloads.erro ? <Mensagem>{downloads.erro}</Mensagem> : null}
       {ultima ? (
