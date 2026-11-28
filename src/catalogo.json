@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-28T04:43:41.008Z",
+  "versao": "2026-11-28T07:06:27.169Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "2": "Conhecimentos complementares",
@@ -322,6 +322,17 @@
       "txt": "aula_2.1.3_integridade_publica_roteiro_audio.txt",
       "mp3": "aula_2.1.3_integridade_publica_roteiro_audio.mp3",
       "mp3Bytes": 20062368
+    },
+    {
+      "id": "aula_2.1.4_integridade_privada_roteiro_audio",
+      "item": "2.1.4",
+      "parte": null,
+      "titulo": "Integridade privada",
+      "modulo": "2",
+      "secao": "2.1",
+      "txt": "aula_2.1.4_integridade_privada_roteiro_audio.txt",
+      "mp3": "aula_2.1.4_integridade_privada_roteiro_audio.mp3",
+      "mp3Bytes": 18244800
     },
     {
       "id": "aula_3.1.1_problemas_e_requisitos",
