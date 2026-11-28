@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-28T13:08:23.733Z",
+  "versao": "2026-11-28T14:35:29.768Z",
   "grupos": {
     "1": "Conhecimentos básicos",
     "2": "Conhecimentos complementares",
@@ -356,6 +356,17 @@
       "txt": "aula_2.2.1_acesso_a_informacao_roteiro_audio.txt",
       "mp3": "aula_2.2.1_acesso_a_informacao_roteiro_audio.mp3",
       "mp3Bytes": 15239088
+    },
+    {
+      "id": "aula_2.2.2_transparencia_e_protecao_de_dados_roteiro_audio",
+      "item": "2.2.2",
+      "parte": null,
+      "titulo": "Transparência e proteção de dados",
+      "modulo": "2",
+      "secao": "2.2",
+      "txt": "aula_2.2.2_transparencia_e_protecao_de_dados_roteiro_audio.txt",
+      "mp3": "aula_2.2.2_transparencia_e_protecao_de_dados_roteiro_audio.mp3",
+      "mp3Bytes": 12174192
     },
     {
       "id": "aula_3.1.1_problemas_e_requisitos",
